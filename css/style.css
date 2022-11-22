@@ -1,0 +1,48 @@
+.circle {
+    margin-top: 7px;
+    width: 40%;
+    height: 20%;
+    border: medium solid black;
+    border-radius: 50px;
+
+}
+
+.circle:last-child {
+    margin-bottom: 0;
+    background-color: green;
+}
+
+.circle:first-child {
+    margin-bottom: 0;
+    background-color: red;
+}
+
+.circle:nth-child(2) {
+    background-color: yellow;
+}
+
+.light-template {
+    background-color: grey;
+    width: 125px;
+    height: 250px;
+    border: medium solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.light1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -65.6px;
+    margin-top: 220px;
+}
+
+.light2 {
+    transform: translateY(15%);
+    margin: 0 auto;
+}
